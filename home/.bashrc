@@ -1,4 +1,4 @@
-alias reloadbash='source ~/cl/etc/bash_profile'
+alias reloadbash='source ~/.bash_profile'
 
 # Colors ----------------------------------------------------------
 export TERM=xterm-color
@@ -81,7 +81,8 @@ source ~/cl/bin/git-completion.bash
 
 prompt_func() {
     previous_return_value=$?;
-    prompt="\[${COLOR_GREEN}\]\w\[${COLOR_GRAY}\]$(__git_ps1)\[${COLOR_NC}\] "
+	prompt="\[${COLOR_GREEN}\]\w\[${COLOR_GRAY}\]\[${COLOR_NC}\] "
+    #prompt="\[${COLOR_GREEN}\]\w\[${COLOR_GRAY}\]$(__git_ps1)\[${COLOR_NC}\] "
     #prompt="\[${COLOR_GREEN}\]\w\[${COLOR_GRAY}\]$(__git_ps1)\[${COLOR_YELLOW}\]$(git_dirty_flag)\[${COLOR_NC}\] "
 
     if test $previous_return_value -eq 0
