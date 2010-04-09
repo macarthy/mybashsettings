@@ -220,6 +220,11 @@ alias mqshowcommands="echo -e '${COLOR_LIGHT_PURPLE}Available commands:
    ${COLOR_BLUE}mq${COLOR_NC}all${COLOR_BLUE}grep${COLOR_NC}
 '"
 
+alias mysqlstart='sudo launchctl load -w /Library/LaunchDaemons/com.mysql.mysqld.plist'
+alias mysqlstop='sudo launchctl unload -w /Library/LaunchDaemons/com.mysql.mysqld.plist'
+
+
+
 export MYSQL_DEFAULT_DB=mysql
 export MYSQL_DEFAULT_USER=root
 

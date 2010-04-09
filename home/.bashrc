@@ -72,7 +72,7 @@ set -o vi
 #bind -m vi-command -r 'v'
 
 # git completion
-source ~/cl/bin/git-completion.bash
+#source ~/cl/bin/git-completion.bash
 
 # Prompts ----------------------------------------------------------
 #git_dirty_flag() {
@@ -207,7 +207,7 @@ killhard() {
 
 # Bring in the other files ----------------------------------------------------
 source ~/.bashrc_help
-source ~/.bashrc_app_specific
+source ~/.bashrc_app_specifics
 if [ -f ~/.bashrc_local ]; then
 	source ~/.bashrc_local
 fi
