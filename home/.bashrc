@@ -212,6 +212,9 @@ if [ -f ~/.bashrc_local ]; then
 	source ~/.bashrc_local
 fi
 
+#--- rvm 
+
+     if [[ -s /Users/macarthy/.rvm/scripts/rvm ]] ; then source /Users/macarthy/.rvm/scripts/rvm ; fi
 
 # Test ------------------------------------------------------------------------ 
 

@@ -39,7 +39,7 @@ svupdate (){
 }
 
 svstatus (){
-  sv status | highlight red "D .*" green "\? .*" blue "A .*"
+  sv status | highlight red "D .*" green "\? .*" blue "A .*" purple "M .*"
 }
 
 svgetinfo (){

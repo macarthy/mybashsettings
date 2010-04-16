@@ -29,7 +29,6 @@ fi
 source ~/.bashrc
 
 
-
 # Hello Messsage --------------------------------------------------
 echo -e "Kernel Information: " `uname -smr`
 echo -e "`bash --version`"
