@@ -272,3 +272,8 @@ mqdropdatabase(){
   echo Warning | highlight red '.*'
   mysqladmin -u ${MYSQL_DEFAULT_USER} drop $@ 
 }
+
+
+# java
+
+export CLASSPATH=$CLASSPATH:~/bin

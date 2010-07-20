@@ -13,7 +13,8 @@ export PLATFORM="$MACHINE-$OS-$OSVERSION"
 if [ "$OS" = "darwin" ] ; then
   export PATH=/opt/local/bin:/opt/local/sbin:$PATH  # OS-X Specific, with MacPorts and MySQL installed
   #export PATH=/opt/local/bin:/opt/local/sbin:$PATH  # OS-X Specific, with MacPorts installed
-fi
+ . /sw/bin/init.sh
+	export PYTHONPATH=/usr/local/lib/python2.6/site-packages/:$PYTHONPATHfi
 
 if [ -d ~/bin ]; then
 	export PATH=~/bin:$PATH  # add your bin folder to the path, if you have it.  It's a good place to add all your scripts
