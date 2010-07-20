@@ -276,4 +276,3 @@ mqdropdatabase(){
 
 # java
 
-export CLASSPATH=$CLASSPATH:~/bin
