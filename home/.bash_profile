@@ -7,8 +7,6 @@ export MACHINE=`uname -m | sed -e 's/  */-/g;y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdef
 export PLATFORM="$MACHINE-$OS-$OSVERSION"
 # Note, default OS is assumed to be OSX
 
-
-
 # Path ------------------------------------------------------------
 if [ "$OS" = "darwin" ] ; then
   export PATH=/opt/local/bin:/opt/local/sbin:$PATH  # OS-X Specific, with MacPorts and MySQL installed
@@ -36,7 +34,6 @@ echo -e "Kernel Information: " `uname -smr`
 echo -e "`bash --version`"
 echo -ne "Uptime: "; uptime
 echo -ne "Server time is: "; date
-
 
 
 # Notes: ----------------------------------------------------------
