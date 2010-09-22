@@ -8,6 +8,8 @@ export PLATFORM="$MACHINE-$OS-$OSVERSION"
 # Note, default OS is assumed to be OSX
 
 # Path ------------------------------------------------------------
+# remember on osx paths are also added by path.d files
+
 if [ "$OS" = "darwin" ] ; then
   export PATH=/opt/local/bin:/opt/local/sbin:$PATH  # OS-X Specific, with MacPorts and MySQL installed
   #export PATH=/opt/local/bin:/opt/local/sbin:$PATH  # OS-X Specific, with MacPorts installed
