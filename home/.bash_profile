@@ -13,7 +13,7 @@ export PLATFORM="$MACHINE-$OS-$OSVERSION"
 if [ "$OS" = "darwin" ] ; then
   export PATH=/opt/local/bin:/opt/local/sbin:$PATH  # OS-X Specific, with MacPorts and MySQL installed
   #export PATH=/opt/local/bin:/opt/local/sbin:$PATH  # OS-X Specific, with MacPorts installed
-	export PYTHONPATH=/usr/local/lib/python2.6/site-packages/:$PYTHONPATH
+	export PYTHONPATH=/usr/local/lib/python2.7/site-packages/:$PYTHONPATH
 fi
 
 if [ -d ~/bin ]; then
