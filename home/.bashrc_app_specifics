@@ -1,3 +1,7 @@
+# rails 
+
+alias rails2="rails _2.3.10_"
+
 # Subversion & Diff ------------------------------------------------
 export SVN_EDITOR='${EDITOR}'
 
