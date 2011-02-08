@@ -214,7 +214,10 @@ fi
 
 #--- rvm 
 
-     if [[ -s /Users/macarthy/.rvm/scripts/rvm ]] ; then source /Users/macarthy/.rvm/scripts/rvm ; fi
+#     if [[ -s /Users/macarthy/.rvm/scripts/rvm ]] ; then source /Users/macarthy/.rvm/scripts/rvm ; fi
+
+
+     [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
 # Test ------------------------------------------------------------------------ 
 
